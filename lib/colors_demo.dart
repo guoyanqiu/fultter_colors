@@ -36,7 +36,7 @@ class ColorsHomePage extends StatelessWidget {
 }
 //Palette：调色板
 class _Palette {
-  _Palette({ this.name, this.primary, this.accent, this.threshold = 900});
+  _Palette({ this.name, this.primary, this.accent});
 
   final String name;
   final MaterialColor primary;
