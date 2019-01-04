@@ -42,7 +42,9 @@ class _Palette {
   //primaryColor
   final MaterialColor primary;
   //accent color
+  //重点色;强调色;重点色彩
   final MaterialAccentColor accent;
+
 }
 
 //数据源
@@ -76,9 +78,9 @@ class _ColorItem extends StatelessWidget {
     @required this.color,
     this.prefix = '',
   }) : assert(index != null),
-       assert(color != null),
-       assert(prefix != null),
-       super(key: key);
+        assert(color != null),
+        assert(prefix != null),
+        super(key: key);
 
   final int index;
   final Color color;
